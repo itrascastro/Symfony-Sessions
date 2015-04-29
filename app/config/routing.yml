@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+itc_demo:
+    resource: "@ITCDemoBundle/Controller/"
+    type:     annotation
