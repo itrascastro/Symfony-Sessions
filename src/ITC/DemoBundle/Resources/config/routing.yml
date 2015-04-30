@@ -1,0 +1,7 @@
+itcdemo_index_index:
+    path: /response
+    defaults: { _controller: ITCDemoBundle:Index:response }
+
+itcdemos_index_view:
+    path: /view
+    defaults: { _controller: ITCDemoBundle:Index:view }

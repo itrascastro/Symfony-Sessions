@@ -1,0 +1,3 @@
+itc_demo2_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ITCDemo2Bundle:Default:index }

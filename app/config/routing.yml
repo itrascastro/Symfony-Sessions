@@ -1,7 +1,13 @@
+itc_demo2:
+    resource: "@ITCDemo2Bundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
 
 itc_demo:
+    #resource: "@ITCDemoBundle/Resources/config/routing.yml"
     resource: "@ITCDemoBundle/Controller/"
     type:     annotation
+    prefix:   /itc
