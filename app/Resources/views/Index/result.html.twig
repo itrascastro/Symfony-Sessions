@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    {{ parent() }}{{ title }}
+{% endblock %}
+
+{% block body %}
+    <div>
+        <div>
+            {% include ':partials:menu.html.twig' %}
+        </div>
+    </div>
+    <div>
+        {{ result }}
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    {{ parent() }}{{ title }}
+{% endblock %}
+
+{% block body %}
+    <div>
+        <div>
+            {% include ':partials:menu.html.twig' %}
+        </div>
+    </div>
+    <div>
+        <form action="{{ path(action) }}" method="post">
+            <input type="number" name="op1"><br>
+            <input type="number" name="op2"><br>
+            <input type="submit" value="{{ button }}">
+        </form>
+    </div>
+{% endblock %}
